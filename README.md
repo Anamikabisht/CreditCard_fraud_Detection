@@ -1,10 +1,10 @@
-# 💳 Credit Card Fraud Detection
+#  Credit Card Fraud Detection
 
 This repository contains a machine learning project focused on detecting fraudulent credit card transactions. The project uses a dataset of European credit card transactions from September 2013 to train and evaluate several classification models.
 
 ---
 
-## 📄 About the Dataset
+##  About the Dataset
 
 - The dataset is sourced from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud).
 - It contains transactions over two days with a **severe class imbalance**: only **0.172%** of transactions are fraudulent.  
@@ -47,7 +47,7 @@ Random Forest	   0.9694	    77%
 XGBoost (Initial)	0.9699	    79%
 XGBoost (Tuned)	0.9758	    74%
 
-✅ Best Model → XGBoost (Tuned)
+ Best Model → XGBoost (Tuned)
 
 Highest ROC-AUC → best at ranking fraud vs. non-fraud
 
