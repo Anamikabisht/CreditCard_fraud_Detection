@@ -39,3 +39,17 @@ This repository contains a machine learning project focused on detecting fraudul
 
 ---
 
+**Model Performance**
+
+Model    	      ROC-AUC      Recall (Fraud Class)
+Logistic          Regression	 0.9626	87%
+Random Forest	   0.9694	    77%
+XGBoost (Initial)	0.9699	    79%
+XGBoost (Tuned)	0.9758	    74%
+
+✅ Best Model → XGBoost (Tuned)
+
+Highest ROC-AUC → best at ranking fraud vs. non-fraud
+
+Recall slightly lower than Logistic Regression but overall discrimination power is superior
+
